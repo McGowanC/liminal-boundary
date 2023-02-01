@@ -25,9 +25,9 @@ html {
     
     @font-face {
         font-family: 'pp_neue_montrealbook';
-        src: url('/font/ppneuemontreal-book-webfont.woff2') format('woff2'),
-             url('/font/PPNeueMontreal-Book.otf') format('opentype'),
-             url('/font/ppneuemontreal-book-webfont.woff') format('woff');
+        src: url('./font/ppneuemontreal-book-webfont.woff2') format('woff2'),
+             url('./font/PPNeueMontreal-Book.otf') format('opentype'),
+             url('./font/ppneuemontreal-book-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
     
@@ -47,7 +47,7 @@ html {
 
 html {
     background-color: #1c1c1c;
-    font-family: "pp_neue_montrealbook", Arial, Helvetica, sans-serif;
+    font-family: "pp_neue_montrealbook";
     width: 100vw;
 }
 
@@ -57,6 +57,7 @@ html {
 
 .h1-scroll {
     font-size: 30em;
+    font-family: "pp_neue_montrealbook";
     color: #fff;
     white-space: nowrap;
     animation-name: title-scroll;
@@ -77,6 +78,7 @@ html {
 
 .h1-title {
     color: #fff;
+    font-family: "pp_neue_montrealbook";
     font-size: 4.5em;
     padding-left: 10px;
     margin: 0 auto;
@@ -94,6 +96,7 @@ html {
 
 p{
     color: rgb(216, 216, 216);
+    font-family: "pp_neue_montrealbook";
     font-size: 1.5em;
     padding-left: 10px;
     margin: 0 auto;
