@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  HTML, body {
+    margin: 0px;
+    padding: 0px;
+      border: 0px;
+    }
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("./font/PPNeueMontreal-Book.otf");
+}
+
+html {
+    background-color: #1c1c1c;
+    font-family: "CustomFont";
+    width: 100vw;
+}
+
+.body-wrapper {
+    overflow-x: hidden;
+}
+
+.h1-scroll {
+    font-size: 30em;
+    color: #fff;
+    white-space: nowrap;
+    animation-name: title-scroll;
+    animation-duration: 120s;
+    animation-timing-function: linear;
+    margin: 0;
+    margin-top: -200px;
+    margin-bottom: -70px;
+   
+
+   
+}
+
+@keyframes title-scroll {
+    from{ transform: translateX(0%);}
+    to{ transform: translateX(-1000%);}
+}
+
+.h1-title {
+    color: #fff;
+    font-size: 5em;
+    padding-left: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+}
+
+.line-break {
+    width: 95vw;
+    border: .01px solid white;
+    margin: 0;
+    margin: 0 auto;
+
+}
+
+p{
+    color: rgb(216, 216, 216);
+    font-size: 1.7em;
+    padding-left: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 400;
+   
+}
