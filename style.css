@@ -31,7 +31,7 @@ html {
     color: #fff;
     white-space: nowrap;
     animation-name: title-scroll;
-    animation-duration: 120s;
+    animation-duration: 200s;
     animation-timing-function: linear;
     margin: 0;
     margin-top: -200px;
@@ -48,7 +48,7 @@ html {
 
 .h1-title {
     color: #fff;
-    font-size: 5em;
+    font-size: 4.5em;
     padding-left: 10px;
     margin: 0 auto;
     margin-top: 10px;
@@ -57,7 +57,7 @@ html {
 
 .line-break {
     width: 95vw;
-    border: .01px solid white;
+    border-bottom: .1em solid white;
     margin: 0;
     margin: 0 auto;
 
@@ -65,10 +65,61 @@ html {
 
 p{
     color: rgb(216, 216, 216);
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding-left: 10px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
     font-weight: 400;
    
+}
+
+@media screen and (min-width:30em) {
+
+    @keyframes title-scroll {
+        from{ transform: translateX(0%);}
+        to{ transform: translateX(-290%);}
+    }
+
+    .h1-scroll {
+        font-size: 30em;
+        color: #fff;
+        white-space: nowrap;
+        animation-name: title-scroll;
+        animation-duration: 250s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        margin: 0;
+        margin-top: -200px;
+        margin-bottom: -70px;
+       
+    
+       
+    }
+
+    .h1-title {
+        color: #fff;
+        font-size: 5em;
+        padding-left: 2.5vw;
+        margin: 0 auto;
+        margin-top: 10px;
+       
+    }
+    
+    .line-break {
+        width: 95vw;
+        border-bottom: .1em solid white;
+        
+        margin: 0 auto;
+    
+    }
+    
+    p{
+        color: rgb(216, 216, 216);
+        font-size: 1.7em;
+        padding-left: 2.5vw;
+        margin: 0 0;
+        margin-top: 10px;
+        font-weight: 400;
+       
+    }
 }
