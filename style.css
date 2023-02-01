@@ -11,14 +11,42 @@ html {
       border: 0px;
     }
 
-@font-face {
-    font-family: "CustomFont";
-    src: url("./font/PPNeueMontreal-Book.otf");
-}
+    @font-face {
+        font-family: 'pp_neue_montrealbold';
+        src: url('/font/ppneuemontreal-bold-webfont.woff2') format('woff2'),
+             url('/font/ppneuemontreal-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    
+    
+    
+    
+    @font-face {
+        font-family: 'pp_neue_montrealbook';
+        src: url('/font/ppneuemontreal-book-webfont.woff2') format('woff2'),
+             url('/font/ppneuemontreal-book-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    
+    
+    
+    
+    @font-face {
+        font-family: 'pp_neue_montrealthin';
+        src: url('/font/ppneuemontreal-thin-webfont.woff2') format('woff2'),
+             url('/font/ppneuemontreal-thin-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
 
 html {
     background-color: #1c1c1c;
-    font-family: "CustomFont";
+    font-family: "pp_neue_montrealbook";
     width: 100vw;
 }
 
