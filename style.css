@@ -47,7 +47,7 @@ html {
 
 html {
     background-color: #1c1c1c;
-    font-family: "pp_neue_montrealbook";
+    font-family: "pp_neue_montrealbook", Arial, Helvetica, sans-serif;
     width: 100vw;
 }
 
